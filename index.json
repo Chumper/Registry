@@ -1,0 +1,57 @@
+{
+    "name": "Local test registry",
+    "description": "A local repository to test stuff",
+    "maintainer": "Nils Plaschke <plaschke@adobe.com>",
+    "tools": [
+        {
+            "name": "date",
+            "description": "Will show the current date and time",
+            "image": "alpine",
+            "entry": ["date"],
+            "type": "hub"
+        },
+        {
+            "name": "cd",
+            "description": "Will show the current date and time",
+            "image": "alpine",
+            "entry": ["cd"],
+            "type": "hub"
+        },
+        {
+            "name": "echo",
+            "description": "Will simply echo what the user inputs",
+            "image": "echo",
+            "type": "local"
+        },
+        {
+            "name": "tree",
+            "description": "Will tree a directory",
+            "image": "1science/alpine",
+            "entry": ["tree"],
+            "type": "hub"
+        },
+        {
+            "name": "hostname",
+            "description": "Will echo the hostname",
+            "image": "alpine",
+            "entry": ["hostname"],
+            "type": "hub"
+        },
+        {
+            "name": "git",
+            "description": "Git in docker",
+            "image": "alpine/git",
+            "type": "hub",
+            "daemon": {
+                "entry": ["/bin/ash"]
+            }
+        },
+        {
+            "name": "jq",
+            "description": "JQ",
+            "image": "digitalgenius/alpine-jq-git",
+            "entry": ["jq"],
+            "type": "hub"
+        }
+    ]
+}
