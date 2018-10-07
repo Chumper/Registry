@@ -1,6 +1,6 @@
 {
-    "name": "Local test registry",
-    "description": "A local repository to test stuff",
+    "name": "Default Registry",
+    "description": "A simple default registry so that we can use it from everywhere",
     "maintainer": "Nils Plaschke <plaschke@adobe.com>",
     "tools": [
         {
@@ -9,19 +9,6 @@
             "image": "alpine",
             "entry": ["date"],
             "type": "hub"
-        },
-        {
-            "name": "cd",
-            "description": "Will show the current date and time",
-            "image": "alpine",
-            "entry": ["cd"],
-            "type": "hub"
-        },
-        {
-            "name": "echo",
-            "description": "Will simply echo what the user inputs",
-            "image": "echo",
-            "type": "local"
         },
         {
             "name": "tree",
