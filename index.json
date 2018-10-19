@@ -20,7 +20,7 @@
          {
             "name": "python",
             "description": "SsSsSsSsSsSsSsSsSs",
-            "image": "pythin",
+            "image": "python",
             "entry": ["python"],
             "type": "hub"
         },
