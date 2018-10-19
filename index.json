@@ -17,6 +17,13 @@
             "entry": ["tree"],
             "type": "hub"
         },
+         {
+            "name": "python",
+            "description": "SsSsSsSsSsSsSsSsSs",
+            "image": "pythin",
+            "entry": ["python"],
+            "type": "hub"
+        },
         {
             "name": "hostname",
             "description": "Will echo the hostname",
