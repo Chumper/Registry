@@ -36,6 +36,7 @@
             "description": "Git in docker",
             "image": "alpine/git",
             "type": "hub",
+            "entry": ["git"],
             "daemon": {
                 "entry": ["/bin/ash"]
             }
