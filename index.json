@@ -23,7 +23,7 @@
             "image": "endeveit/docker-jq",
             "entry": ["jq"],
             "type": "hub"
-        },
+        }
     ],
     "kits": [
         {
