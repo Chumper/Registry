@@ -23,6 +23,13 @@
             "image": "endeveit/docker-jq",
             "entry": ["jq"],
             "type": "hub"
+        },
+        {
+            "name": "tree",
+            "description": "List contents of directories in a tree-like format.",
+            "image": "1science/alpine",
+            "entry": ["tree"],
+            "type": "hub"
         }
     ],
     "kits": [
